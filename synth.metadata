@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/python-appengine-admin.git",
-        "sha": "29d67f947f488bd15684a525ee408f42d41fa1e6"
+        "sha": "5165f7e7145d270585aa6f93afba339614cf2fb5"
       }
     },
     {
