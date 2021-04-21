@@ -4,15 +4,15 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/python-appengine-admin.git",
-        "sha": "29d67f947f488bd15684a525ee408f42d41fa1e6"
+        "sha": "8cc55e6f651f7c96873f5f36886bd66521f87aaf"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "7e91915c247a5c84ab5fcdf11ce2bdf7404f2fcc",
-        "internalRef": "367156876"
+        "sha": "177750fd983e8049f2d2b116ca7691cbd4f94000",
+        "internalRef": "369574301"
       }
     },
     {

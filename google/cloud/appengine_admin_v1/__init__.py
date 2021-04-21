@@ -135,6 +135,7 @@ __all__ = (
     "AuthFailAction",
     "AuthorizedCertificate",
     "AuthorizedCertificateView",
+    "AuthorizedCertificatesClient",
     "AuthorizedDomain",
     "AuthorizedDomainsClient",
     "AutomaticScaling",
@@ -180,7 +181,6 @@ __all__ = (
     "HealthCheck",
     "InboundServiceType",
     "Instance",
-    "InstancesClient",
     "Library",
     "ListAuthorizedCertificatesRequest",
     "ListAuthorizedCertificatesResponse",
@@ -235,5 +235,5 @@ __all__ = (
     "Volume",
     "VpcAccessConnector",
     "ZipInfo",
-    "AuthorizedCertificatesClient",
+    "InstancesClient",
 )
