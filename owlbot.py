@@ -48,4 +48,6 @@ s.move(
 
 python.py_samples(skip_readmes=True)
 
+python.configure_previous_major_version_branches()
+
 s.shell.run(["nox", "-s", "blacken"], hide_output=False)
