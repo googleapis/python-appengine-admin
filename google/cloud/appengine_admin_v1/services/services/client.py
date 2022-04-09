@@ -16,7 +16,7 @@
 from collections import OrderedDict
 import os
 import re
-from typing import Dict, Optional, Sequence, Tuple, Type, Union
+from typing import Dict, Mapping, Optional, Sequence, Tuple, Type, Union
 import pkg_resources
 
 from google.api_core import client_options as client_options_lib
@@ -420,7 +420,7 @@ class ServicesClient(metaclass=ServicesClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import appengine_admin_v1
+                    from google.cloud import appengine_admin_v1
 
             def sample_list_services():
                 # Create a client
@@ -507,7 +507,7 @@ class ServicesClient(metaclass=ServicesClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import appengine_admin_v1
+                    from google.cloud import appengine_admin_v1
 
             def sample_get_service():
                 # Create a client
@@ -590,7 +590,7 @@ class ServicesClient(metaclass=ServicesClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import appengine_admin_v1
+                    from google.cloud import appengine_admin_v1
 
             def sample_update_service():
                 # Create a client
@@ -686,7 +686,7 @@ class ServicesClient(metaclass=ServicesClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import appengine_admin_v1
+                    from google.cloud import appengine_admin_v1
 
             def sample_delete_service():
                 # Create a client
