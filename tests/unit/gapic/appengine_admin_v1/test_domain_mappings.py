@@ -1923,7 +1923,6 @@ def test_domain_mappings_transport_auth_adc(transport_class):
     [
         transports.DomainMappingsGrpcTransport,
         transports.DomainMappingsGrpcAsyncIOTransport,
-        transports.DomainMappingsRestTransport,
     ],
 )
 def test_domain_mappings_transport_auth_gdch_credentials(transport_class):

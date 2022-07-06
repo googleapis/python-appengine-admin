@@ -2059,7 +2059,6 @@ def test_firewall_transport_auth_adc(transport_class):
     [
         transports.FirewallGrpcTransport,
         transports.FirewallGrpcAsyncIOTransport,
-        transports.FirewallRestTransport,
     ],
 )
 def test_firewall_transport_auth_gdch_credentials(transport_class):

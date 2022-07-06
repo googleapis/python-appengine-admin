@@ -2005,7 +2005,6 @@ def test_authorized_certificates_transport_auth_adc(transport_class):
     [
         transports.AuthorizedCertificatesGrpcTransport,
         transports.AuthorizedCertificatesGrpcAsyncIOTransport,
-        transports.AuthorizedCertificatesRestTransport,
     ],
 )
 def test_authorized_certificates_transport_auth_gdch_credentials(transport_class):
