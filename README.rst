@@ -1,20 +1,20 @@
-Python Client for App Engine Admin
-==================================
+Python Client for App Engine Admin API API
+==========================================
 
-|GA| |pypi| |versions|
+|stable| |pypi| |versions|
 
-`App Engine Admin`_ allows you to manage your App Engine applications.
+`App Engine Admin API API`_: 
 
 - `Client Library Documentation`_
 - `Product Documentation`_
 
-.. |GA| image:: https://img.shields.io/badge/support-ga-gold.svg
-   :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#general-availability
+.. |stable| image:: https://img.shields.io/badge/support-stable-gold.svg
+   :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#stability-levels
 .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-appengine-admin.svg
    :target: https://pypi.org/project/google-cloud-appengine-admin/
 .. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-appengine-admin.svg
    :target: https://pypi.org/project/google-cloud-appengine-admin/
-.. _App Engine Admin: https://cloud.google.com/appengine/docs/admin-api/
+.. _App Engine Admin API API: https://cloud.google.com/appengine/docs/admin-api/
 .. _Client Library Documentation: https://cloud.google.com/python/docs/reference/appengine/latest
 .. _Product Documentation:  https://cloud.google.com/appengine/docs/admin-api/
 
@@ -25,12 +25,12 @@ In order to use this library, you first need to go through the following steps:
 
 1. `Select or create a Cloud Platform project.`_
 2. `Enable billing for your project.`_
-3. `Enable the App Engine Admin.`_
+3. `Enable the App Engine Admin API API.`_
 4. `Setup Authentication.`_
 
 .. _Select or create a Cloud Platform project.: https://console.cloud.google.com/project
 .. _Enable billing for your project.: https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_project
-.. _Enable the App Engine Admin.:  https://cloud.google.com/appengine/docs/admin-api/
+.. _Enable the App Engine Admin API API.:  https://cloud.google.com/appengine/docs/admin-api/
 .. _Setup Authentication.: https://googleapis.dev/python/google-api-core/latest/auth.html
 
 Installation
@@ -46,6 +46,31 @@ dependencies.
 
 .. _`virtualenv`: https://virtualenv.pypa.io/en/latest/
 
+
+Code samples and snippets
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Code samples and snippets live in the `samples/` folder.
+
+
+Supported Python Versions
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Our client libraries are compatible with all current `active`_ and `maintenance`_ versions of
+Python.
+
+Python >= 3.7
+
+.. _active: https://devguide.python.org/devcycle/#in-development-main-branch
+.. _maintenance: https://devguide.python.org/devcycle/#maintenance-branches
+
+Unsupported Python Versions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Python <= 3.6
+
+If you are using an `end-of-life`_
+version of Python, we recommend that you update as soon as possible to an actively supported version.
+
+.. _end-of-life: https://devguide.python.org/devcycle/#end-of-life-branches
 
 Mac/Linux
 ^^^^^^^^^
@@ -71,12 +96,12 @@ Windows
 Next Steps
 ~~~~~~~~~~
 
--  Read the `Client Library Documentation`_ for App Engine Admin
+-  Read the `Client Library Documentation`_ for App Engine Admin API API
    to see other available methods on the client.
--  Read the `App Engine Admin Product documentation`_ to learn
+-  Read the `App Engine Admin API API Product documentation`_ to learn
    more about the product and see How-to Guides.
 -  View this `README`_ to see the full list of Cloud
    APIs that we cover.
 
-.. _App Engine Admin Product documentation:  https://cloud.google.com/appengine/docs/admin-api/
+.. _App Engine Admin API API Product documentation:  https://cloud.google.com/appengine/docs/admin-api/
 .. _README: https://github.com/googleapis/google-cloud-python/blob/main/README.rst
