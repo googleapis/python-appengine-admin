@@ -3,7 +3,7 @@ Python Client for App Engine Admin API API
 
 |stable| |pypi| |versions|
 
-`App Engine Admin API API`_: you to manage your App Engine applications.
+`App Engine Admin API API`_: allows you to manage your App Engine applications.
 
 - `Client Library Documentation`_
 - `Product Documentation`_
