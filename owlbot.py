@@ -39,7 +39,7 @@ for library in s.get_staging_dirs(default_version):
     excludes=["**/gapic_version.py"]
 
     # See https://github.com/googleapis/gapic-generator-python/issues/825
-    excludes.extend(["docs/appengine_admin_v1/services.rst"])
+    excludes.extend(["docs/appengine_admin_v1/services.rst", "docs/index.rst"])
 
     s.move([library], excludes=excludes)
 s.remove_staging_dirs()
@@ -51,7 +51,6 @@ s.remove_staging_dirs()
 templated_files = gcp.CommonTemplates().py_library(
     cov_level=100,
     microgenerator=True,
-    versions=gcp.common.detect_versions(path="./google", default_first=True),
 )
 s.move(templated_files, excludes=[".coveragerc", ".github/release-please.yml"])
 
